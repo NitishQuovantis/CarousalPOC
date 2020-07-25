@@ -39,7 +39,7 @@ export const Data = [
   },
   {
     image: R.Images.BleedingEdge,
-    name: 'Mark 1',
+    name: 'Bleeding Edge',
     description:
       'His Endo-Sym armor was based primarily off symbiote biology and wrapped around his body like liquid metal. Infinity War’s equivalent of the Mk. 50, however, was based on nanotech that adapted to his thoughts, giving him the ability to instantly form a variety of weapons.',
   },

@@ -38,7 +38,7 @@ export default function CarousalItem({item, scrollX, index}) {
         <Text
           style={LocalStyle.descriptionStyle}
           ellipsizeMode="tail"
-          numberOfLines={5}>
+          numberOfLines={6}>
           {item.description}
         </Text>
       </AnimatedGradient>

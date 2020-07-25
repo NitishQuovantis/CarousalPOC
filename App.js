@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <StatusBar translucent barStyle="dark-content" />
+        <StatusBar barStyle="dark-content" />
         <Home />
       </>
     );

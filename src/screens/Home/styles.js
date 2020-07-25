@@ -1,6 +1,4 @@
-import {StyleSheet, Dimensions} from 'react-native';
-
-const width = Dimensions.get('screen');
+import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   containerStyle: {
@@ -23,6 +21,12 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     color: 'white',
     transform: [{translateX: -75}, {rotate: '-90deg'}, {translateX: 75}],
+  },
+
+  pageIndicatorStyle: {
+    position: 'absolute',
+    right: 30,
+    bottom: 30,
   },
 });
 

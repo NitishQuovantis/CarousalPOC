@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Dimensions, Text, Animated} from 'react-native';
-import {CarousalItem} from '../../components';
+import {CarousalItem, PageIndicator} from '../../components';
 import LocalStyle from './styles';
 import {Data} from './Data';
 
@@ -44,6 +44,12 @@ export default class Home extends Component {
         />
 
         <Text style={LocalStyle.pageTitle}>Iron Man</Text>
+
+        <PageIndicator
+          style={LocalStyle.pageIndicatorStyle}
+          noOfItems={Data.length}
+          scrollX={scrollX}
+        />
       </View>
     );
   }

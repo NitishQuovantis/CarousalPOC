@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
     bottom: 0,
     paddingBottom: 20,
     paddingLeft: 60,
-    paddingTop: 200,
+    paddingRight: 10,
+    paddingTop: 160,
   },
 
   titleStyle: {
